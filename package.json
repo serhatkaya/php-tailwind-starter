@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "concurrently \"tailwindcss -i ./src/css/input.css -o ./public/css/styles.css --watch\" \"node hot-reload.js\"",
+    "build": "tailwindcss -i ./src/css/input.css -o ./public/css/styles.css --minify"
+  },
+  "name": "php-tailwind-starter",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "chokidar": "^3.5.3",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "ws": "^8.16.0"
+  }
+}
