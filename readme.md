@@ -32,14 +32,6 @@ npm install
 npm run dev
 ```
 
-In another terminal, start PHP server
-
-```bash
-php -S localhost:1881 -t public
-```
-
-## 🛠 Development
-
 Available npm scripts:
 
 Start Tailwind compiler and hot reload server
