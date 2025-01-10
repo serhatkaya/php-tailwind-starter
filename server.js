@@ -6,7 +6,7 @@ const phpServer = spawn("php", [
   "-S",
   "localhost:1881",
   "-t",
-  path.join(__dirname, "../public"),
+  path.join(__dirname, "./public"),
 ]);
 
 phpServer.stdout.on("data", (data) => {
