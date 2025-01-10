@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "concurrently \"tailwindcss -i ./src/css/input.css -o ./public/css/styles.css --watch\" \"node hot-reload.js\"",
+    "dev": "concurrently \"tailwindcss -i ./src/css/input.css -o ./public/css/styles.css --watch\" \"node hot-reload.js\" \"node src/server.js\"",
     "build": "tailwindcss -i ./src/css/input.css -o ./public/css/styles.css --minify"
   },
   "name": "php-tailwind-starter",
